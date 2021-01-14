@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ali-fe/static/css/main.24643df7.chunk.css",
+    "main.js": "/ali-fe/static/js/main.40f2482a.chunk.js",
+    "main.js.map": "/ali-fe/static/js/main.40f2482a.chunk.js.map",
+    "runtime-main.js": "/ali-fe/static/js/runtime-main.7f0abba4.js",
+    "runtime-main.js.map": "/ali-fe/static/js/runtime-main.7f0abba4.js.map",
+    "static/css/2.469bed33.chunk.css": "/ali-fe/static/css/2.469bed33.chunk.css",
+    "static/js/2.c4d004fd.chunk.js": "/ali-fe/static/js/2.c4d004fd.chunk.js",
+    "static/js/2.c4d004fd.chunk.js.map": "/ali-fe/static/js/2.c4d004fd.chunk.js.map",
+    "index.html": "/ali-fe/index.html",
+    "static/css/2.469bed33.chunk.css.map": "/ali-fe/static/css/2.469bed33.chunk.css.map",
+    "static/css/main.24643df7.chunk.css.map": "/ali-fe/static/css/main.24643df7.chunk.css.map",
+    "static/js/2.c4d004fd.chunk.js.LICENSE.txt": "/ali-fe/static/js/2.c4d004fd.chunk.js.LICENSE.txt",
+    "static/media/Tabler.css": "/ali-fe/static/media/zw.a70e41e8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7f0abba4.js",
+    "static/css/2.469bed33.chunk.css",
+    "static/js/2.c4d004fd.chunk.js",
+    "static/css/main.24643df7.chunk.css",
+    "static/js/main.40f2482a.chunk.js"
+  ]
+}
