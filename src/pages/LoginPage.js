@@ -12,7 +12,8 @@ class LoginPage extends React.Component {
   }
 
   render() {
-    const { dispatch, isFetching, authData } = this.props;
+    const { dispatch, authReducer } = this.props;
+    const {authData,isFetching} =authReducer;
     const strings = isFetching ? { buttonText: "Please wait" } : {};
 
     if (authData) {

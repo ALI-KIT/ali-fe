@@ -7,7 +7,8 @@ import RegisterForm from "../components/Form/RegisterForm";
 import { postUserRegister } from '../actions/AuthAction';
 class RegisterPage extends React.Component {
   render() {
-    const { dispatch, isFetching, authData } = this.props;
+    const { dispatch, authData,isFetching } = this.props;
+
     const strings = isFetching ? { buttonText: "Please wait" } : {};
 
     if (authData && authData.user && authData.user.email) {
@@ -68,8 +69,8 @@ class RegisterPage extends React.Component {
 }
 
 
-function mapStateToProps({ authReducers }) {
-  return authReducers;
+function mapStateToProps({ authReducer }) {
+  return authReducer;
 }
 
 export const RegisterContainer = connect(
